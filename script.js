@@ -9,8 +9,11 @@ function addtask(){
         li.innerHTML = inputBox.value
         listContainer.appendChild(li)
         let span = document.createElement('span')
+        let date = document.createElement('input')
+        date.type = 'time'
         span.innerHTML = '\u00d7'
-        li.appendChild(span)
+        let chy = li.appendChild(span)
+        chy.prepend(date)
     }
     inputBox.value = ""
     savedata()
