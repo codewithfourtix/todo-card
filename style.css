@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -71,25 +71,16 @@ button {
 }
 
 ul li {
-  /* list-style: none; */
-  /* font-size: 17px;
-    padding: 12px 8px 12px 50px;
-    user-select: none;
-    cursor: pointer;
-    position: relative; */
   list-style: none;
   font-size: 17px;
   padding: 12px 8px 12px 50px;
   user-select: none;
   cursor: pointer;
   position: relative;
-  display: flex;
-  align-items: center; /* Align items vertically in the center */
-  justify-content: space-between; /* Space out the content */
 }
 
 ul li::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 28px;
   width: 28px;
@@ -97,7 +88,7 @@ ul li::before {
   background-image: url(images/unchecked.png);
   background-size: cover;
   background-position: center;
-  top: 17px;
+  top: 9px;
   left: 8px;
 }
 
@@ -111,22 +102,16 @@ ul li.checked::before {
 }
 
 ul li span {
-  position: relative;
-  margin-left: 10px; /* Add margin for spacing */
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
   font-size: 22px;
   color: #555;
   line-height: 40px;
   text-align: center;
-  cursor: pointer;
-  display: flex;
-}
 
-ul li input[type="time"] {
-  margin-left: 10px; /* Add margin to separate it from the text */
-  border: none;
-  background: transparent;
-  padding: 5px; /* Adjust padding as needed */
-  margin-right: 10px;
 }
 
 ul li span:hover {
@@ -138,7 +123,7 @@ ul li span:hover {
   button {
     padding: 16px 20px;
   }
-  .todo-app h2 {
-    font-size: 28px;
+  .todo-app h2{
+      font-size: 28px;
   }
 }
