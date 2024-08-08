@@ -118,6 +118,7 @@ ul li span {
   line-height: 40px;
   text-align: center;
   cursor: pointer;
+  display: flex;
 }
 
 ul li input[type="time"] {
