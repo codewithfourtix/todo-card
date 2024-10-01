@@ -116,7 +116,7 @@ ul li span {
 
 ul li span:hover {
   background: #edeef0;
-  border-radius: 50%;
+  border-radius: 49%;
 }
 
 @media (max-width: 600px) {
